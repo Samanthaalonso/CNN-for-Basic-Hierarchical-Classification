@@ -2,6 +2,11 @@
 
 This repository contains the implementation of a Basic Hierarchical Convolutional Neural Network (CNN) using PyTorch. The model is designed for hierarchical classification tasks, where the classification is performed in a two-level hierarchy.
 
+# Requirements
+* Python 3.x
+* PyTorch
+
+
 ## Model Architecture
 
 The `BasicHierarchicalCNN` class defines a CNN model with shared convolutional layers followed by branch-specific fully connected layers for hierarchical classification.
